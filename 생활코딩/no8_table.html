@@ -11,26 +11,40 @@
 <body>
     <table border="1">
         <h2>table data</h2>
-        <tr>
-            <td>이름</td>
-            <td>성별</td>
-            <td>거주지</td>
-        </tr>
-        <tr>
-            <td>장수정</td>
-            <td>여</td>
-            <td>서울</td>
-        </tr>
-        <tr>
-            <td>유지현</td>
-            <td>여</td>
-            <td>서울</td>
-        </tr>
-        <tr>
-            <td>이성규</td>
-            <td>남</td>
-            <td>서울</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>성별</th>
+                <th>거주지</th>
+                <th>회비</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>장수정</td>
+                <td>여</td>
+                <td>서울</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>유지현</td>
+                <td>여</td>
+                <td>서울</td>
+                <td>500</td>
+            </tr>
+            <tfoot> <!--어디에 있어도 값을 가장 아래로 보냄-->
+                <td>합계</td>
+                <td></td>
+                <td></td>
+                <td>1500</td>
+            </tfoot>
+            <tr>
+                <td>이성규</td>
+                <td>남</td>
+                <td>서울</td>
+                <td>500</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 

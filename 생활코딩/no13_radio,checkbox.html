@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://localhost/order.php">
+        <!-- 같은 이름끼리 묶어주면, 그 애들끼리 중에서 하나만 선택 가능 -->
+        <p>
+        <h1>먹고 싶은 것(단일선택)</h1>
+        피자 : <input type="radio" name="food">
+        치킨 : <input type="radio" name="food" checked>
+        떡볶이 : <input type="radio" name="food">
+        </p>
+        <p>
+            <!-- 같은 이름끼리 묶어주면, 그 애들끼리 중에서 여러개 선택 가능 -->
+        <h1>마시고 싶은 것</h1>
+        맥주 : <input type="checkbox" name="drink" value="beer">
+        소주 : <input type="checkbox" name="drink" value="soju" checked>
+        와인 : <input type="checkbox" name="drink" value="wine" checked>
+        </p>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

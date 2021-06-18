@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form acition="http://localhose/color.php">
+        <h1>색상</h1>
+        <!-- dropdown list or combobox 라고 함. live server url 변화 보면서 공부하기 -->
+        <select name="color">
+            <option value="red">붉은색</option>
+            <option value="blue">파란색</option>
+            <option value="black">검정색</option>
+        </select>
+        <h1>색상 2</h1>    <!--multiple : ctrl 누르면 여러개 누를 수 있게 해줌-->
+        <select name="color2" multiple>
+            <option value="red">붉은색</option>
+            <option value="blue">파란색</option>
+            <option value="black">검정색</option>
+        </select>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
