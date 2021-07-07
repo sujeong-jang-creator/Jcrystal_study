@@ -47,7 +47,7 @@ for image in images:
     # print(driver.find_element_by_css_selector("._image").get_attribute("src"))
     # imgUrl = driver.find_element_by_css_selector("._image").get_attribute("src")
     imgUrl = image.get_attribute("src")
-    
+    images.index(image)
     # url 사진을 다운받자
     urllib.request.urlretrieve(imgUrl, str(count) + ".jpg")
     time.sleep(3)

@@ -1,0 +1,10 @@
+.header	{
+	align-items: center;
+	padding: 0 1rem;
+    justify-content: space-between;
+	background-color: #31f500;
+}
+
+.h1 {
+    color: aliceblue;
+}
