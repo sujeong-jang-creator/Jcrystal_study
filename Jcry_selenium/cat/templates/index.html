@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" href="{{url_for('static', filename='css/ui-page.css')}}">
     <link rel="stylesheet" href="{{url_for('static', filename='css/default.css')}}">
+    <style>
+
+    </style>
+
 </head>
 
 <body>
@@ -30,6 +34,8 @@
                 if (this.readyState == 4 && this.status == 200) {
                     data = this.responseText;
                     console.log(data);
+
+                    document.getElementById("picture").innerHTML= `<img src='static/images/${data.c_id}.jfif' alt = "${data.champ}입니다" width = "200">`;
 
 
                 }
