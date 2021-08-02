@@ -27,4 +27,13 @@
 <br>
 
 ## 4. Algorithm
-- 기초 알고리즘 & 파이썬 코딩(무료) : <a href="https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=175">T아카데미 기초 Algorithm 강의보기</a>
+- 기초 알고리즘 & 파이썬 코딩강좌(무료) : <a href="https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=175">T아카데미 기초 Algorithm 강의보기</a>
+
+<br>
+
+## 5. JavaScript
+- 자바스크립트 기초강좌(무료) 
+ 1. <a href="https://www.youtube.com/playlist?list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2">드림코딩 기초 JavaScript 강의보기</a>
+ <br> : JSON 개념정리도 있음. (10강에)
+ 
+ 2. <a href="https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=54"> T아카데미 JavaScript 강의보기</a>
