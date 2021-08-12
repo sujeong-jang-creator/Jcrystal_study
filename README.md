@@ -38,6 +38,8 @@
  
  2. <a href="https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=54"> T아카데미 JavaScript 강의보기</a>
 
+<br>
+
 ## 6. AWS
 - AWS 소식지 (8월 2째주 주간 소식 모음)
 1. <a href="https://aws.amazon.com/ko/blogs/korea/week-in-review-09-08-21/?fbclid=IwAR0ixuXcxaSirlqL2ffZXltBXsiQVD_zCL9w3MgsjqiKRrcKZJEozVie3WE">주간소식지 보기</a>
@@ -55,7 +57,6 @@
     - AWS 빅 데이터 입문하기 (8월 19일)
     - AWS 데이터 분석 솔루션 소개 (8월 19일)
     - 쉽게 배우는 AWS 머신러닝 (8월 19일)
-
 
 - AWS 교육 & 자격증
 1. <a href="https://www.aws.training/">공식 온라인 교육&자격증 센터</a>
