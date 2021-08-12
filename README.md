@@ -1,4 +1,4 @@
-<h1 align='center'> :beer: 장크리수탉의 독학 library :beer:</h1>
+<h1 align='center'> :beer: 장크리수탉의 LINK library :beer:</h1>
 
 ## 1. html
 - html 기초강좌(무료) : <a href="https://www.youtube.com/playlist?list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB">생활코딩 HTML 강의보기</a>
@@ -37,3 +37,26 @@
  <br> : JSON 개념정리도 있음. (10강에)
  
  2. <a href="https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=54"> T아카데미 JavaScript 강의보기</a>
+
+## 6. AWS
+- AWS 소식지 (8월 2째주 주간 소식 모음)
+1. <a href="https://aws.amazon.com/ko/blogs/korea/week-in-review-09-08-21/?fbclid=IwAR0ixuXcxaSirlqL2ffZXltBXsiQVD_zCL9w3MgsjqiKRrcKZJEozVie3WE">주간소식지 보기</a>
+
+2. 위 1번의 링크를 누르고 스크롤을 내리면 아래 내용의 링크가 나옴.
+
+   [ AWS 온라인 기초 교육 ]
+
+    -  AWS 에센셜 클라우드 기초의 모든 것 8월 17일
+    - 성공적인 마이그레이션을 위한 AWS 툴 및 전략 소개 (8월 17일)
+    - 클라우드를 보다 안전하게 – AWS 보안 (8월 17일)
+    - 서버리스 환경에서 개발하기 (8월 18일)
+    - 초보자를 위한 컨테이너 시작하기 (8월 18일)
+    - 컨테이너를 위한 Amazon EKS 서비스 소개 (8월 18일)
+    - AWS 빅 데이터 입문하기 (8월 19일)
+    - AWS 데이터 분석 솔루션 소개 (8월 19일)
+    - 쉽게 배우는 AWS 머신러닝 (8월 19일)
+
+- AWS 교육 & 자격증
+1. <a href="https://www.aws.training/">공식 온라인 교육&자격증 센터</a>
+
+2. <a href="https://aws.amazon.com/ko/certification/certification-prep/?th=cta&cta=header&p=2">AWS certification</a>
