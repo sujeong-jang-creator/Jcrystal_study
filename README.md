@@ -62,4 +62,4 @@
 - AWS 교육 & 자격증
 1. <a href="https://www.aws.training/">공식 온라인 교육&자격증 센터</a>
 
-2. <a href="https://aws.amazon.com/ko/certification/certification-prep/?th=cta&cta=header&p=2">AWS certification</a>
+2. <a href="https://aws.amazon.com/ko/certification/certification-prep/?th=cta&cta=header&p=2">AWS certification</a> 
