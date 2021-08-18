@@ -64,9 +64,13 @@
 
 2. <a href="https://aws.amazon.com/ko/certification/certification-prep/?th=cta&cta=header&p=2">AWS certification</a> 
 
+<br>
+
 ## 7. Django
 1. <a href="https://www.inflearn.com/course/django-%EC%B4%88%EB%B3%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8B%A4%EC%8A%B5%EC%9D%84-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%9E%A5%EA%B3%A0-%EC%9E%85%EB%AC%B8">inflearn 장고 초보가이드</a>
  : 가입 후 무료
  
- ## 9. Elastic
+ <br>
+ 
+ ## 8. Elastic
  1.  <a href = "https://www.youtube.com/watch?v=ypsEZXVYLo4">Elastic stack을 이용한 서울시 지하철 대시보드 다시 만들기</a>
