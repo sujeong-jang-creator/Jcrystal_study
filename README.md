@@ -73,4 +73,4 @@
  <br>
  
  ## 8. Elastic
- 1.  <a href = "https://www.youtube.com/watch?v=ypsEZXVYLo4">Elastic stack을 이용한 서울시 지하철 대시보드 다시 만들기</a>
+ 1.  <a href = "https://www.youtube.com/watch?v=Ks0P49B4OsA&list=PLhFRZgJc2afp0gaUnQf68kJHPXLG16YCf">처음부터 시작하는 Elastic</a>
