@@ -69,6 +69,18 @@
 ## 7. Django
 1. <a href="https://www.inflearn.com/course/django-%EC%B4%88%EB%B3%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8B%A4%EC%8A%B5%EC%9D%84-%ED%86%B5%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EC%9E%A5%EA%B3%A0-%EC%9E%85%EB%AC%B8">inflearn 장고 초보가이드</a>
  : 가입 후 무료
+2. 장고 튜토리얼
+- 장고걸스 : https://tutorial.djangogirls.org/ko/
+3. django-rest-framework tutorial
+- 공식 튜토리얼 : https://www.django-rest-framework.org/tutorial/quickstart/
+- 코린이의 DRF : https://jay-ji.tistory.com/30
+- 회원가입1 : https://han-py.tistory.com/216
+- 회원가입2 : https://velog.io/@lemontech119/DRF%EB%A1%9C-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C1-%ED%9A%8C%EC%9B%90%EA%B8%B0%EB%8A%A5
+- 회원가입3(React) : https://developer0809.tistory.com/98
+- 게시판1 : https://wisdom-990629.tistory.com/entry/DRF-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
+- 게시판2 : https://sssunda.tistory.com/156
+Django REST Framework Tutorial_1 ~ 7
+Django-REST-board_1 ~ 3
  
  <br>
  
