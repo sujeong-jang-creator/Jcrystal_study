@@ -25,6 +25,7 @@
 - 머신러닝 기초교양(무료) : <a href="https://www.youtube.com/playlist?list=PLuHgQVnccGMDy5oF7G5WYxLF3NCYhB9H9">생활코딩 머신러닝 강의보기</a>
 - Tensorflow 기초강좌(무료) : <a href="https://www.youtube.com/playlist?list=PLl1irxoYh2wyLwJutUZx5Q_QEEDZoXBnz">생활코딩 Tensorflow 강의보기</a>
 
+
 <br>
 
 ## 4. Algorithm
