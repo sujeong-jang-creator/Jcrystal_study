@@ -44,21 +44,18 @@
 
 ## 6. AWS
 - AWS 소식지 (8월 2째주 주간 소식 모음)
-1. <a href="https://aws.amazon.com/ko/blogs/korea/week-in-review-09-08-21/?fbclid=IwAR0ixuXcxaSirlqL2ffZXltBXsiQVD_zCL9w3MgsjqiKRrcKZJEozVie3WE">주간소식지 보기</a>
+1. <a href="https://aws.amazon.com/ko/blogs/korea/week-in-review-30-08-21/?nc1=b_rp">주간소식지 보기</a>
 
 2. 위 1번의 링크를 누르고 스크롤을 내리면 아래 내용의 링크가 나옴.
 
-   [ AWS 온라인 기초 교육 ]
+   [ AWS Industry Week 온라인 컨퍼런스 ]
 
-    -  AWS 에센셜 클라우드 기초의 모든 것 8월 17일
-    - 성공적인 마이그레이션을 위한 AWS 툴 및 전략 소개 (8월 17일)
-    - 클라우드를 보다 안전하게 – AWS 보안 (8월 17일)
-    - 서버리스 환경에서 개발하기 (8월 18일)
-    - 초보자를 위한 컨테이너 시작하기 (8월 18일)
-    - 컨테이너를 위한 Amazon EKS 서비스 소개 (8월 18일)
-    - AWS 빅 데이터 입문하기 (8월 19일)
-    - AWS 데이터 분석 솔루션 소개 (8월 19일)
-    - 쉽게 배우는 AWS 머신러닝 (8월 19일)
+ - 바이오 헬스케어 시장의 현재와 미래, 그리고 클라우드 (2021년 10월 5일)
+ - 콘텐츠 무한 경쟁의 시대, M&E 산업의 트렌드와 혁신 사례 (2021년 10월 6일)
+ - 다시 기지개켜는 여행 및 관광산업, AWS와 함께 그리는 현재와 미래 (2021년 10월 7일)
+ - 금융 퍼스트 무버(First Mover)들의 클라우드 퍼스트(Cloud First) 전략과 사례 (2021년 10월 8일)
+ - 미래의 제조 산업, AWS 클라우드를 통한 지속 가능 경영 전략 (2021년 10월 12일)
+ - 코로나로 앞당겨진 SaaS 전성시대, SaaS 비즈니스를 위한 AWS 솔루션과 고객사례 (2021년 10월 13일)
 
 - AWS 교육 & 자격증
 1. <a href="https://www.aws.training/">공식 온라인 교육&자격증 센터</a>
