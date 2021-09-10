@@ -1,0 +1,14 @@
+h1 {
+    text-align : right;
+    color: orange;
+    margin-top: 100px;
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+body{
+    background: linear-gradient(90deg, orange 30%, #ffffff 30%);
+    height: 100vh;
+    margin: 0;
+}
