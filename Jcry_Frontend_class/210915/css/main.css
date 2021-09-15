@@ -1,0 +1,25 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    transition: 1s;
+}
+
+/* .box:active {
+    width: 300px;
+    background:blueviolet;
+}
+
+input{
+    width: 300px;
+    background:white;
+    transition: 0.5s;
+}
+
+input:focus{
+    background: burlywood;
+} */
+
+.box::before{
+    content : "Before";
+}

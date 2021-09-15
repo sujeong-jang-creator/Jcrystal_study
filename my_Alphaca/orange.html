@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../static/image/orangeicon.ico">
+    <link rel="icon" type="image/x-icon" href="../static/image/orangeicon.ico">
+    <style>
+        body {
+            margin: 0px;
+            height: 100vh;
+        }
+
+        /* .container_1 {
+            min-height: 80%;
+        } */
+
+        .contentbox_title {
+            text-align: center;
+            margin-top: 150px;
+            margin-bottom: 5%;
+        }
+
+        .contentbox_title>h1 {
+            margin-bottom: 0;
+        }
+
+        #detail_hot_singer {
+            margin-top: 0;
+        }
+
+        .contentbox-1 {
+            display: flex;
+            padding: 0 130px;
+            justify-content: space-around;
+            margin-bottom: 80px;
+        }
+
+        .contents {
+            width: 33%;
+            min-height: 250px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+        .contents>h1 {
+            margin: 10px 0 0 0;
+        }
+
+        .container_2 {
+            background-color: #ffbd4fb3;
+            min-height: 45%;
+        }
+
+        .contentbox-2 {
+            margin-left: 120px;
+            margin-right: 120px;
+            padding-top: 5%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dashbord_1 {
+            width: 30%;
+            border: 0.5px solid #ffa500bf;
+            background-color: #ffa500bf;
+            /* border-radius: 80px / 40px; */
+            min-height: 200px;
+        }
+
+        .dashbord_2 {
+            width: 68%;
+            background-color: white;
+            padding-bottom: 20px;
+        }
+
+        footer {
+            background-color: #4d4e54;
+            color: white;
+            /* text-align: center; */
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        #Github-btn {
+            border-radius: 8px;
+            border: none;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            margin-left: 1%;
+            padding: 3px 13px;
+
+        }
+
+        #Github-btn:hover {
+            background-color: teal;
+            color: white;
+        }
+
+        #highlight {
+            background-color: #ff6fcf;
+            color: white;
+        }
+
+        #hot_song {
+            background-color: #3fdada;
+            color: white;
+        }
+
+        .arrow-box {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0 40px 0;
+        }
+
+        .contents>h2 {
+            margin: 10px 0;
+        }
+
+        .contents>h4 {
+            margin: 0;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 95%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            padding: 0 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fcf4ca;
+        }
+
+        .chart-box {
+            display: flex;
+            justify-content: center;
+        }
+
+        #genre_btn {
+            display: flex;
+            width: 95%;
+            justify-content: space-around;
+            margin-bottom: 8px;
+        }
+
+        #btn {
+            border-radius: 4px;
+            background-color: #fe8000;
+            /* Green */
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 3px 2px;
+            cursor: pointer;
+        }
+
+        .dashbord_2>h1 {
+            margin-left: 20px;
+            display: inline-block;
+        }
+    </style>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://platform.linkedin.com ">
+</head>
+
+<body>
+    <div class="container_1">
+        <div class="contentbox_title">
+            <h1>신곡 들은지 얼마나 오렌지(๑°ㅁ°๑)&#10071;&#10071;✧</h1>
+            Melon의 24h 실시간 차트를 기반으로 제작하였습니다.
+        </div>
+        <div class="contentbox-1">
+            <div class="contents" style="background-color: #a4fbfb47;">
+                <h1>실시간</h1>
+                <h1>가장 <span style="color: #3fdada;">Hot</span>한 노래</h1>
+                <h2><span id="hot_song"></span></h2>
+            </div>
+
+            <div class="contents" style="background-color: #eef9ec;">
+                <h1><span style="color: #69de53;" id="love_artist"></span>의</h1>
+                <h1><span style="color: #69de53;" id="love_title"></span>이(가)</h1>
+                <h1><span style="color: #69de53;" id="love_date"></span>일째</h1>
+                <h1>사랑받고 있어요❤️</h1>
+            </div>
+
+            <div class="contents" style="background-color: #fbecf6;">
+                <h1>현재 차트 지분</h1>
+                <h1><span style="color: #ff6fcf;">1위</span>는</h1>
+                <h1 id="hot_singer"></h1>
+                <h4 id="detail_hot_singer"></h4>
+            </div>
+
+        </div>
+        <div class="arrow-box">
+            <img src="../static/image/arrow.png" width="65" height="40">
+        </div>
+    </div>
+
+    <div class="container_2">
+        <div class="contentbox-2">
+
+            <div class="dashbord_1">
+                <h2>장르 점유율</h2>
+                <iframe src="http://localhost:5601/goto/5edd95b3050ec362b18f2d94e543129a" height="380"
+                    width="380"></iframe>
+                <h2>가수 점유율</h2>
+                <iframe src="http://localhost:5601/goto/5edd95b3050ec362b18f2d94e543129a" height="380"
+                    width="380"></iframe>
+                <h2></h2>
+            </div>
+            <div class="dashbord_2">
+                <h1>실시간 순위 차트</h1>
+                <span id="chart-time"></span>
+                <div style="display: flex; justify-content: center;">
+                    <div id="genre_btn"></div>
+                </div>
+                <div class="chart-box" style="overflow:auto; width: 100%; height:850px;">
+
+                    <table id="live_chart"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Team-Alphaca
+        <button id="Github-btn"><a href="https://github.com/Yejin-Ha/Team_Alphaca/tree/master/0716_miniProject">Go to
+                Github</a></button>
+    </footer>
+
+    <script>
+        let hsinger = '{{singer}}';
+        let song = '{{song}}';
+        let chart = '{{chart}}';
+        let all_genre = '{{all_genre}}';
+        let oldest = '{{oldest}}';
+
+        song = song.replaceAll("&#39;", "'");
+        hsinger = hsinger.replaceAll("&#39;", "'");
+        chart = chart.replaceAll("&#39;", "'");
+        chart = chart.replaceAll("&amp;", "&");
+        chart = chart.replaceAll("&#34;", '"');
+        all_genre = all_genre.replaceAll("&#39;", "'");
+        oldest = oldest.replaceAll("&#39;", "'");
+
+        hsinger = "[" + hsinger + "]"
+        song = "[" + song + "]"
+        oldest = "[" + oldest + "]"
+
+        song = eval(song);
+        hsinger = eval(hsinger);
+        chart = eval(chart);
+        all_genre = eval(all_genre);
+        oldest = eval(oldest);
+
+        document.getElementById('hot_song').innerText = song[0]['artist'] + " - " + song[0]['title']
+        document.getElementById('love_artist').innerText = oldest[0]['artist']
+        document.getElementById('love_title').innerText = oldest[0]['title']
+        document.getElementById('love_date').innerText = oldest[0]['duration']
+        document.getElementById('hot_singer').innerHTML = `<span id='highlight'>${hsinger[0]['artist']}</span>입니다`
+        document.getElementById('detail_hot_singer').innerText = hsinger[0]['count'] + "곡이나 있다구요ヽ(°〇°)ﾉ!!"
+        var year = chart[0]['date'].substr(0, 4)
+        var month = chart[0]['date'].substr(5, 2)
+        var day = chart[0]['date'].substr(8, 2)
+        var hour = chart[0]['date'].substr(11, 2)
+        var tmp = year + "년 " + month + "월 " + day + "일 " + hour + "시 기준"
+        document.getElementById('chart-time').innerText = tmp
+        let genre_btns = '<button id="btn" onclick=genre_chart("all")>전체</button>';
+
+        for (i = 0; i < all_genre.length; i++) {
+            genre_btns += `<button id="btn" onclick=genre_chart("${all_genre[i]}")>${all_genre[i]}</button>`;
+        }
+
+
+        function genre_chart(gen) {
+            var song_lists = []
+            var chart_table = chart_table_th;
+
+            if (gen == 'all') {
+                for (i = 0; i < chart.length; i++) {
+                    chart_table += `<tr><td>${chart[i]['rank']}</td>
+                <td>${chart[i]['title']}</td>
+                <td>${chart[i]['artist']}</td>
+                <td>${chart[i]['album']}</td>
+                <td>${chart[i]['genre']}</td>
+                <td>${chart[i]['release_date']}</td></tr>`;
+                }
+                document.getElementById('live_chart').innerHTML = "";
+                document.getElementById('live_chart').innerHTML = chart_table;
+
+            } else {
+                for (var song of chart) {
+                    song_genre = song['genre'];
+
+                    for (var detail of song_genre) {
+                        if (gen == detail) {
+                            song_lists.push(song);
+                            continue
+                        }
+                    }
+                }
+                console.log(song_lists)
+                for (i = 0; i < song_lists.length; i++) {
+                    chart_table += `<tr><td>${song_lists[i]['rank']}</td>
+                <td>${song_lists[i]['title']}</td>
+                <td>${song_lists[i]['artist']}</td>
+                <td>${song_lists[i]['album']}</td>
+                <td>${song_lists[i]['genre']}</td>
+                <td>${song_lists[i]['release_date']}</td></tr>`;
+                }
+                document.getElementById('live_chart').innerHTML = "";
+                document.getElementById('live_chart').innerHTML = chart_table;
+
+            }
+        }
+
+        let chart_table_th = `<tr>`;
+
+        for (var item of ["순위", "title", 'artist', 'album', '장르', '발매일']) {
+            chart_table_th += `<th>${item}</th>`;
+        }
+
+        chart_table_th += '</tr>';
+
+        let chart_table_td = chart_table_th;
+
+        for (i = 0; i < chart.length; i++) {
+            chart_table_td += `<tr><td>${chart[i]['rank']}</td>
+                <td>${chart[i]['title']}</td>
+                <td>${chart[i]['artist']}</td>
+                <td>${chart[i]['album']}</td>
+                <td>${chart[i]['genre']}</td>
+                <td>${chart[i]['release_date']}</td></tr>`;
+        }
+
+        document.getElementById('live_chart').innerHTML = chart_table_td;
+        document.getElementById('genre_btn').innerHTML = genre_btns;
+    </script>
+</body>
+
+</html>
