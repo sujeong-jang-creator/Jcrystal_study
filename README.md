@@ -32,6 +32,7 @@
 ## 4. Algorithm
 - 기초 알고리즘 & 파이썬 코딩강좌(무료) : <a href="https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=175">T아카데미 기초 Algorithm 강의보기</a>
 
+
 <br>
 
 ## 5. JavaScript
