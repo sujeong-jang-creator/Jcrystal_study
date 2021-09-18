@@ -4,7 +4,8 @@
 
 ## 1. html
 - html 기초강좌(무료) : <a href="https://www.youtube.com/playlist?list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB">생활코딩 HTML 강의보기</a>
-- :feet: 달성률 : **73%** (32/44)
+   - :feet: 달성률 : **73%** (32/44)
+- 반응형 웹 강좌(무료) : <a href="https://www.youtube.com/watch?v=e-2kcTJs9E4&list=PL4UVBBIc6giJv80flTFfGelxxU_M9y2WG">Webstoryboy 반응형 웹 강의보기</a>
 
 <br>
 
