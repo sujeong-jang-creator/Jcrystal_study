@@ -1,0 +1,23 @@
+@import "reset.css";
+
+.header { 
+    width: auto;
+    height: 8vh;
+    background-color: #fdebd8;
+    text-align: center;
+    line-height: 8vh;  /* vertical-align 때문에 필요함 */
+}
+
+.header img {
+    vertical-align: middle;
+}
+
+.input-group{
+    width: 60vw;
+    height: 5vh;
+    margin: auto;
+}
+
+.login_email{
+    margin-top: 30vh
+}
