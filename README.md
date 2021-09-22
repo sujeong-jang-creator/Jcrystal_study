@@ -2,6 +2,7 @@
 
 
 
+
 ## 1. html
 - html 기초강좌(무료) : <a href="https://www.youtube.com/playlist?list=PLuHgQVnccGMDUzDDCKW-pCZQY-MMCX5yB">생활코딩 HTML 강의보기</a>
    - :feet: 달성률 : **73%** (32/44)
