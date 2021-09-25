@@ -1,0 +1,32 @@
+@import "reset.css";
+
+.container {
+    padding: 0;
+}
+
+.container .header {
+    background-color: #fdebd8;
+}
+
+.main_text {
+    text-align: center;
+}
+
+.input-group {
+    width: 85%;
+    margin: auto;
+}
+
+.input-group:nth-child(1) {
+    margin-top: 40%;
+
+}
+
+.input-group-text {
+    width: 90px;
+    position: relative;
+}
+
+button {
+    margin-top: 20px;
+}
