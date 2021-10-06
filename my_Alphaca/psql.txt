@@ -1,0 +1,17 @@
+SELECT version();
+
+create table test(No int, 날짜 varchar(40), 등급 varchar(15));
+
+update test set 등급='1++' where 등급='A++'
+
+select*from test;
+
+insert into test values (1, '2021-09-15', '1++');
+insert into test values (2, '2021-09-17', '1+');
+insert into test values (3, '2021-09-19', '2');
+insert into test values (4, '2021-09-21', '1++');
+insert into test values (5, '2021-09-23', '2');
+
+update test set 날짜=2021-09-15 where 날짜='2021-09-15';
+
+drop table test;

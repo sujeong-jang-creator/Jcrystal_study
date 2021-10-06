@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+import iguessso_app.views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', iguessso_app.views.total_distinguish, name='total_distinguish'),
+    path('detail_distinguish/', iguessso_app.views.detail_distinguish, name='detail_distinguish'),
 ]

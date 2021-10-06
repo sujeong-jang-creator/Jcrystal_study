@@ -1,0 +1,66 @@
+/* @import "reset.css"; */
+
+/* same */
+.header { 
+    width: auto;
+    background-color: #fdebd8;
+    line-height: 8vh;  /* vertical-align 때문에 필요함 */
+    border: 10px dashed #fdebd8;
+    margin: auto;
+}
+
+
+/* total_distinguish */
+.title {
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 24px;
+}
+
+hr {
+    margin: auto;
+    margin-top: 1vh;
+}
+
+.buttons {
+    margin-top: 1.5vh;
+    margin-right: 5vw;
+    text-align: right;
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+/* detail_distinguish */
+.container {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: stretch; */
+    margin-top: 10vh;
+    width: auto;
+}
+
+.img-wrapper {
+    max-width: 100%;
+    height: auto;
+    /* margin: auto; */
+    justify-content: center;
+}
+
+.chart {
+    height: 10vh;
+    margin-top: 10vh;
+    background-color: orange;
+}
+
+.detail_buttons {
+    margin-top: 20vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
