@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'iguessso_app.apps.IguesssoAppConfig'
+    'iguessso_app.apps.IguesssoAppConfig',
 ]
 
 MIDDLEWARE = [

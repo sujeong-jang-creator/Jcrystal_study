@@ -18,8 +18,10 @@ from django.urls import path
 
 import iguessso_app.views
 
+app_name = 'iguessso_app'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', iguessso_app.views.total_distinguish, name='total_distinguish'),
+    path('total_distinguish/', iguessso_app.views.grade_table, name='grade_table'),
     path('detail_distinguish/', iguessso_app.views.detail_distinguish, name='detail_distinguish'),
 ]
