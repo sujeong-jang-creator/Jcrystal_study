@@ -89,4 +89,5 @@ Django-REST-board_1 ~ 3
  1.  <a href = "https://www.youtube.com/watch?v=Ks0P49B4OsA&list=PLhFRZgJc2afp0gaUnQf68kJHPXLG16YCf">처음부터 시작하는 Elastic</a>
  
  ## Inflearn
- 
+ 1. Angular
+ <a href = "https://www.inflearn.com/course/angular-%EC%95%B5%EA%B7%A4%EB%9F%AC-%EA%B0%95%EC%A2%8C/unit/4182">AngularJS 강좌</a>
